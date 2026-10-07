@@ -25,3 +25,4 @@ public class MetierImpl implements IMetier {
         double temp = dao.getData();
         return temp * 540 / Math.cos(temp * Math.PI);
     }
+}
